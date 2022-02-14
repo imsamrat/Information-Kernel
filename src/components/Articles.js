@@ -28,7 +28,7 @@ const Articles = ({ articles }) => {
                   className='text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0'
                   to={`/article/${article.name}`}
                 >
-                  Learn more...
+                  See more...
                 </Link>
               </div>
             </div>
