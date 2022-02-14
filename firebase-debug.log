@@ -1,0 +1,21 @@
+[debug] [2022-02-14T14:47:10.029Z] ----------------------------------------------------------------------
+[debug] [2022-02-14T14:47:10.031Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-14T14:47:10.032Z] CLI Version:   10.2.0
+[debug] [2022-02-14T14:47:10.032Z] Platform:      win32
+[debug] [2022-02-14T14:47:10.032Z] Node Version:  v14.17.1
+[debug] [2022-02-14T14:47:10.033Z] Time:          Mon Feb 14 2022 20:47:10 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-02-14T14:47:10.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-14T14:47:10.039Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-14T14:47:10.039Z] > authorizing via signed-in user (2191081067@uttarauniversity.edu.bd)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\React Project\mern-blog-front\mern-blog-front
+

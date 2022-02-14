@@ -20,6 +20,11 @@ const NavBar = () => {
             Articles
           </Link>
         </li>
+        <li className='inline-block pt-4 pb-4'>
+        হটলাইন ০৯৬১০০৬৬৫২৫
+
+
+        </li>
       </ul>
     </nav>
   );
