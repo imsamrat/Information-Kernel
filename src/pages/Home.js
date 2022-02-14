@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -45,7 +44,7 @@ const Home = () => {
         ea maiores enim, perspiciatis hic deleniti minima pariatur quaerat
         placeat tempora repellat sit nisi!
       </p> */}
-      {/* <Footer /> */}
+    <p className="text-center font-bold text-lg mt-20">Design by Samrat</p>
     </div>
     
   );

@@ -34,6 +34,7 @@ const About = () => {
         ea maiores enim, perspiciatis hic deleniti minima pariatur quaerat
         placeat tempora repellat sit nisi!
       </p>
+      <p className="text-center font-bold text-lg mt-20">Design by Samrat</p>
     </div>
   );
 };
