@@ -1,19 +1,30 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className='mb-20'>
-      <h1 className='sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-900'>
+    <div className="mb-20">
+      <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-900">
         Home
       </h1>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
+      <marquee
+        className="sm:text-2xl text-2xl font-bold mt-6 mb-6 text-red-500"
+        behavior=""
+        direction=""
+      >
+        {" "}
+        ব্রেকিং নিউজঃ{" নাখালপাড়া এবং তেজকুনিপাড়াতে ব্র্যান্ডেড অর্ডার নেওয়া যাবে......। "}
+      </marquee>
+
+      <img className='w-full object-cover object-center' src="/images/blog4.jpeg" alt="" />
+      {/* <p className="mx-auto leading-relaxed text-base mb-4">
         Welcome to my Blog! Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Excepturi ad aut dolorum, consectetur a molestiae quis neque alias
         quod quos qui vitae, accusantium quisquam doloribus inventore, enim
         labore ab laboriosam delectus maxime? Veniam ab dolorum ipsa, odit
         magnam facilis quaerat veritatis?
       </p>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
+      <p className="mx-auto leading-relaxed text-base mb-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eum.
         Iste, totam reiciendis. Laborum officia architecto atque quo saepe
         praesentium recusandae! Voluptas, natus delectus cum amet quidem ipsum
@@ -21,7 +32,7 @@ const Home = () => {
         dolore commodi quos facilis facere cupiditate ipsa obcaecati rerum error
         ea quae dignissimos!
       </p>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
+      <p className="mx-auto leading-relaxed text-base mb-4">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque possimus
         perspiciatis, in natus illo, dolore porro sequi vitae neque expedita
         maxime ratione aspernatur hic at exercitationem doloremque cumque quo!
@@ -33,8 +44,10 @@ const Home = () => {
         soluta consequuntur aliquid? Qui ea hic soluta eaque ad ipsam! Aliquam
         ea maiores enim, perspiciatis hic deleniti minima pariatur quaerat
         placeat tempora repellat sit nisi!
-      </p>
+      </p> */}
+      {/* <Footer /> */}
     </div>
+    
   );
 };
 

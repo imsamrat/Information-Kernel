@@ -1,32 +1,44 @@
 const articles = [
   {
     name: "learn-react",
-    title: "The Fastest Way to Learn React",
-    thumbnail: "/images/blog1.jpg",
+    title: "দক্ষিণখানে স্পিড",
+    thumbnail: "/images/speed.png",
     content: [
-      `Welcome! Today we're going to be talking about the fastest way to learn React. Lorem proin congue ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at sodales purus euismod.`,
-      `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+      `উত্তরাতে অবস্থিত দক্ষিণখান এরিয়াতে পরবর্তী ঘোষনা না দেওয়া পর্যন্ত স্পিড অর্ডার নেওয়া যাবে না।`,
     ],
   },
   {
     name: "learn-node",
-    title: "How to Build a Node Server in 10 Minutes",
-    thumbnail: "/images/blog2.jpg",
+    title: "তেজগাঁ এরিয়াতে ডিপ্লোমা",
+    thumbnail: "/images/diploma.jpg",
     content: [
-      `In this article, we're going to be talking looking at a very quick way to set up a Node.js server. We'll be discussing some topics such as proin congue ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at sodales purus euismod.`,
-      `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+      `গুলশান জোনের তেজগাঁ হাবের সকল এরিয়াতে ডিপ্লোমা দুধ অর্ডার নেওয়া যাবে না।`,
     ],
   },
   {
     name: "my-thoughts-on-learning-react",
-    title: "My Thoughts on Learning ReactJS",
-    thumbnail: "/images/blog3.jpg",
+    title: "রুপচান্দা তৈলের আপডেট",
+    thumbnail: "/images/rupchanda.jpeg",
     content: [
-      `Today is the day I talk about something which scares most people: Learning ReactJS. In reality, I'm not sure why people have such a hard time with Learning ReactJS ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at sodales purus euismod.`,
-      `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+      `বনশ্রী ও নারায়ণগঞ্জ জোনের শনির আখড়া ও রায়েরবাগ এরিয়াতে রুপচান্দা তৈল অর্ডার নেওয়া যাবে না।`,
+      `গুলশানের সকল এরিয়াতে রুপচান্দা তৈল অর্ডার নেওয়া যাবে না।`,
+      `উত্তরার সকল সেক্টরে রুপচান্দা তৈল অর্ডার নেওয়া যাবে না।`,
+    ],
+  },
+  {
+    name: "Bashundhara-Oil",
+    title: "বসুন্ধরা তেলের আপডেট",
+    thumbnail: "/images/bashundhara.jpg",
+    content: [
+      `বসুন্ধরা কোম্পানির সাথে আমাদের সমস্যা থাকার কারণে পরবর্তী নির্দেশ না দেওয়া পর্যন্ত বসুন্ধরা তেলের অর্ডার কোনোভাবেই নেওয়া যাবে না।`,
+    ],
+  },
+  {
+    name: "Aci-Salt",
+    title: "ACI Salt (লবন)",
+    thumbnail: "/images/aci.jpg",
+    content: [
+      `মিরপুর জোনের আন্ডারে মিরপুর ১ হাবের সকল এরিয়াতে ACI Salt (লবন) অর্ডার নেওয়া যাবে না।`,
     ],
   },
 ];
