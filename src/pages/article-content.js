@@ -1,6 +1,6 @@
 const articles = [
   {
-    name: "learn-react",
+    name: "speed-uddate",
     title: "দক্ষিণখানে স্পিড",
     thumbnail: "/images/speed.png",
     content: [
@@ -8,7 +8,7 @@ const articles = [
     ],
   },
   {
-    name: "learn-node",
+    name: "diploma-tejgaon",
     title: "তেজগাঁ এরিয়াতে ডিপ্লোমা",
     thumbnail: "/images/diploma.jpg",
     content: [
@@ -16,7 +16,7 @@ const articles = [
     ],
   },
   {
-    name: "my-thoughts-on-learning-react",
+    name: "rupchanda-update",
     title: "রুপচান্দা তৈলের আপডেট",
     thumbnail: "/images/rupchanda.jpeg",
     content: [
@@ -38,6 +38,15 @@ const articles = [
     thumbnail: "/images/aci.jpg",
     content: [
       `মিরপুর জোনের আন্ডারে মিরপুর ১ হাবের সকল এরিয়াতে ACI Salt (লবন) অর্ডার নেওয়া যাবে না।`,
+    ],
+  },
+  {
+    name: "Aci-Salt-Unbrand",
+    title: "ACI Salt যখন আনব্র্যান্ড",
+    thumbnail: "/images/aci.jpg",
+    content: [
+      `কোনো রিটেইলার যদি ACI Salt (লবন) ১ কার্টুন (২৫/৫০ পিস) অর্ডার করে তখন আমরা সেটা টঙ্গি বা যাত্রাবাড়ী এরিয়ার আন্ডারে সাবমিট করবো।`,
+      `আর যদি ACI Salt (লবন) সিঙ্গেল পিস অর্ডার করে তখন আমরা সেটা ব্র্যান্ডের (ঢাকা) আন্ডারে সাবমিট করবো।`,
     ],
   },
 ];

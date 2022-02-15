@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Information from "./pages/Information";
 import ArticlesList from "./pages/ArticlesList";
 import Article from "./pages/Article";
 import NotFound from "./pages/NotFound";
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/information' component={Information} />
           <Route exact path='/articles-list' component={ArticlesList} />
           <Route exact path='/article/:name' component={Article} />
           <Route component={NotFound} />

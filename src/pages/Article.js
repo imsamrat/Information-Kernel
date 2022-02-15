@@ -27,22 +27,27 @@ const Article = ({ match }) => {
   );
   return (
     <>
-      <h1 className='sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-900'>
-        {article.title}
-      </h1>
-      <img className='w-full object-cover object-center' src={article.thumbnail} alt="" />
-      {article.content.map((paragraph, index) => (
-        <p className='mx-auto leading-relaxed text-base mb-4' key={index}>
-          {paragraph}
-        </p>
-      ))}
-
+      <div className="">
+        <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-900">
+          {article.title}
+        </h1>
+        <img
+          className="w-full object-cover object-center"
+          src={article.thumbnail}
+          alt=""
+        />
+        {article.content.map((paragraph, index) => (
+          <p className="mx-auto leading-relaxed text-base mb-4" key={index}>
+            {paragraph}
+          </p>
+        ))}
+      </div>
       {/* <CommentsList comments={articleInfo.comments} />
       <AddCommetForm articleName={name} setAritcleInfo={setArticleInfo} /> */}
-      <h1 className='sm:text-2x text-xl font-bold mt-4 mb-4 text-gray-900'>
+      <h1 className="sm:text-2x text-xl font-bold mt-4 mb-4 text-gray-900">
         Other Articles
       </h1>
-      <div className='flex flex-wrap -m-4'>
+      <div className="flex flex-wrap -m-4">
         <Articles articles={otherArticles} />
       </div>
     </>

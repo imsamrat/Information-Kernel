@@ -12,10 +12,17 @@ const Home = () => {
         direction=""
       >
         {" "}
-        ব্রেকিং নিউজঃ{" উত্তরা এরিয়াতে এখন থেকে আবার রূপচান্দা তেল অর্ডার নেওয়া যাবে বলেছেন মোশাররফ ভাই। নাখালপাড়া এবং তেজকুনিপাড়াতে ব্র্যান্ডেড অর্ডার নেওয়া যাবে না......। "}
+        ব্রেকিং নিউজঃ
+        {
+          " উত্তরা এরিয়াতে এখন থেকে আবার রূপচান্দা তেল অর্ডার নেওয়া যাবে বলেছেন মোশাররফ ভাই। নাখালপাড়া এবং তেজকুনিপাড়াতে ব্র্যান্ডেড অর্ডার নেওয়া যাবে না......। "
+        }
       </marquee>
 
-      <img className='w-full object-cover object-center' src="/images/blog4.jpeg" alt="" />
+      <img
+        className="w-full object-cover object-center"
+        src="/images/blog4.jpeg"
+        alt=""
+      />
       {/* <p className="mx-auto leading-relaxed text-base mb-4">
         Welcome to my Blog! Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Excepturi ad aut dolorum, consectetur a molestiae quis neque alias
@@ -44,9 +51,8 @@ const Home = () => {
         ea maiores enim, perspiciatis hic deleniti minima pariatur quaerat
         placeat tempora repellat sit nisi!
       </p> */}
-    <p className="text-center font-bold text-lg mt-20">Design by Samrat</p>
+      <p className="text-center font-bold text-lg mt-20">Design by Samrat</p>
     </div>
-    
   );
 };
 
