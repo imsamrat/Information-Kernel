@@ -279,7 +279,12 @@ const Faq = () => {
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body py-4 px-5">
-              <a href="https://docs.google.com/uc?id=1ZMWbRxfJLWEGAW4lnK6R2GvBm_idVaJb&export=download&hl=en_US" target="_blank"><u>Download Area List</u></a>
+            <a
+              href="https://docs.google.com/uc?id=1ZMWbRxfJLWEGAW4lnK6R2GvBm_idVaJb&export=download&hl=en_US"
+              target="_blank"
+            >
+              <u>Click Here</u>
+            </a>
           </div>
         </div>
       </div>
