@@ -245,6 +245,44 @@ const Faq = () => {
           </div>
         </div>
       </div>
+      <div class="accordion-item bg-white border border-gray-200">
+        <h2 class="accordion-header mb-0" id="headingSeven">
+          <button
+            class="
+          accordion-button
+          relative
+          flex
+          items-center
+          w-full
+          py-4
+          px-5
+          text-base text-gray-800 text-left
+          bg-white
+          border-0
+          rounded-none
+          transition
+          focus:outline-none
+        "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven"
+            aria-expanded="true"
+            aria-controls="collapseSeven"
+          >
+            <b>Area List (এরিয়া লিস্ট) ডাউনলোড লিঙ্ক?</b>
+          </button>
+        </h2>
+        <div
+          id="collapseSeven"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body py-4 px-5">
+              <a href="https://docs.google.com/uc?id=1ZMWbRxfJLWEGAW4lnK6R2GvBm_idVaJb&export=download&hl=en_US" target="_blank"><u>Download Area List</u></a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
