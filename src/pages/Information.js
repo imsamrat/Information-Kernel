@@ -5,6 +5,7 @@ import Danish from "../images/danish.jpg";
 import Diploma from "../images/diploma.jpg";
 import Aci from "../images/aci.jpg";
 
+
 const Information = () => {
   return (
     <div className="mb-20">

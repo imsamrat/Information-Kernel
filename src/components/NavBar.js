@@ -22,6 +22,11 @@ const NavBar = () => {
           </Link>
         </li>
         <li className='inline-block pt-4 pb-4'>
+          <Link to='/faq' className='pl-6 pr-8'>
+            FAQ
+          </Link>
+        </li>
+        <li className='inline-block pt-4 pb-4'>
           <Link to='/about' className='pl-6 pr-8'>
             About
           </Link>
