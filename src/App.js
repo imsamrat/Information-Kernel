@@ -7,11 +7,21 @@ import Faq from "./pages/Faq";
 import ArticlesList from "./pages/ArticlesList";
 import Article from "./pages/Article";
 import NotFound from "./pages/NotFound";
+import ReactGa from "react-ga";
 
 // Components
 import NavBar from "./components/NavBar";
+import { useEffect } from "react";
 
 function App() {
+  
+  useEffect(() => {
+    ReactGa.initialize('G-XDW88JCJ91')
+    // to report page view
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  },[])
+
+
   return (
     <Router>
       <NavBar />

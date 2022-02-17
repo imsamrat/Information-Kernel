@@ -249,7 +249,7 @@ const Information = () => {
                       </td>
                       <td class="p-2 whitespace-nowrap">
                         <div class="text-left font-medium text-green-500">
-                          25 Pcs
+                          50 Pcs
                         </div>
                       </td>
                     </tr>
@@ -275,7 +275,7 @@ const Information = () => {
                       </td>
                       <td class="p-2 whitespace-nowrap">
                         <div class="text-left font-medium text-green-500">
-                          50 Pcs
+                          25 Pcs
                         </div>
                       </td>
                     </tr>
