@@ -12,6 +12,14 @@ import ReactGa from "react-ga";
 // Components
 import NavBar from "./components/NavBar";
 import { useEffect } from "react";
+import Preloader from "./components/Preloader/Preloader";
+
+window.addEventListener('load', function () {
+  document.querySelector('.wrapper').classList.add('opacity-0');
+  setTimeout(() => {
+    document.querySelector('.wrapper').style.display = 'none';
+  }, 1000)
+})
 
 function App() {
   
@@ -24,6 +32,7 @@ function App() {
 
   return (
     <Router>
+      <Preloader/>
       <NavBar />
       <div className='max-w-screen-md mx-auto pt-20'>
         <Switch>
