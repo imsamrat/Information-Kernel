@@ -4,6 +4,7 @@ import Articles from "../components/Articles";
 import NotFound from "./NotFound";
 import CommentsList from "../components/CommentsList";
 import AddCommetForm from "../components/AddCommentForm";
+import Footer from "../components/Footer";
 
 const Article = ({ match }) => {
   const name = match.params.name;
@@ -49,6 +50,7 @@ const Article = ({ match }) => {
       </h1>
       <div className="flex flex-wrap -m-4">
         <Articles articles={otherArticles} />
+        <Footer/>
       </div>
     </>
   );

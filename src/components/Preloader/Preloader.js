@@ -3,11 +3,11 @@ import './Preloader';
 
 const Preloader = () => {
   return (
-    <div class="wrapper">
-      <div class="blue ball"></div>
-      <div class="red ball"></div>
-      <div class="yellow ball"></div>
-      <div class="green ball"></div>
+    <div className="wrapper">
+      <div className="blue ball"></div>
+      <div className="red ball"></div>
+      <div className="yellow ball"></div>
+      <div className="green ball"></div>
     </div>
   );
 };

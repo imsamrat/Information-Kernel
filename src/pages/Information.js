@@ -4,6 +4,7 @@ import Speed from "../images/speed.png";
 import Danish from "../images/danish.jpg";
 import Diploma from "../images/diploma.jpg";
 import Aci from "../images/aci.jpg";
+import Footer from "../components/Footer";
 
 
 const Information = () => {
@@ -286,6 +287,7 @@ const Information = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

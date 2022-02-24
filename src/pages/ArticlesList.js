@@ -2,6 +2,7 @@ import React from "react";
 import articleContent from "./article-content";
 
 import Articles from "../components/Articles";
+import Footer from "../components/Footer";
 
 const ArticlesList = () => {
   return (
@@ -14,6 +15,7 @@ const ArticlesList = () => {
           <Articles articles={articleContent} />
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

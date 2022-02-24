@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Faq = () => {
   return (
@@ -288,6 +289,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
+      {/* <Footer/> */}
     </div>
   );
 };

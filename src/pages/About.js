@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -29,8 +30,7 @@ const About = () => {
       <p className="mx-auto leading-relaxed text-base mb-4">
         <b>কল করুন</b> ০৯৬১০০৬৬৫২৫
       </p>
-
-      <p className="text-center font-bold text-lg mt-20">Design by Samrat</p>
+      <Footer/>
     </div>
   );
 };
