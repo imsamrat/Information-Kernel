@@ -14,12 +14,12 @@ import NavBar from "./components/NavBar";
 import { useEffect } from "react";
 import Preloader from "./components/Preloader/Preloader";
 
-window.addEventListener('load', function () {
-  document.querySelector('.wrapper').classList.add('opacity-0');
-  setTimeout(() => {
-    document.querySelector('.wrapper').style.display = 'none';
-  }, 1000)
-})
+// window.addEventListener('load', function () {
+//   document.querySelector('.wrapper').classList.add('opacity-0');
+//   setTimeout(() => {
+//     document.querySelector('.wrapper').style.display = 'none';
+//   }, 1000)
+// })
 
 function App() {
   

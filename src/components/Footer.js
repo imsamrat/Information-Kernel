@@ -308,7 +308,7 @@ const Footer = () => {
           <span>© 2022 Copyright: </span>
           <a
             class="text-gray-600 font-semibold"
-            href="https://tailwind-elements.com/"
+            href="https://imsamrat7.web.app/"
           >
             Design by Samrat
           </a>
